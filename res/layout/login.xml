@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFE5B4" >
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_gravity="center"
+		android:background="#FFE5B4"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginTop="20dp"
+			android:gravity="center"
+			android:text="@string/tvSignin"
+			android:textColor="#284BDA"
+			android:textSize="15pt"
+			android:textStyle="italic" />
+		<EditText
+			android:id="@+id/etEmailLogin"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginTop="20dp"
+			android:hint="@string/etEmail"
+			android:inputType="textEmailAddress" />
+		<EditText
+			android:id="@+id/etPasswordLogin"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginTop="20dp"
+			android:hint="@string/etPassword"
+			android:inputType="textPassword" />
+		<CheckBox
+			android:id="@+id/chkRemberMe"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginTop="20dp"
+			android:text="@string/chkRemeberMe" />
+		<Button
+			android:id="@+id/btnLogin"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginTop="20dp"
+			android:drawableRight="@android:drawable/ic_lock_lock"
+			android:hint="@string/btnSignIn"
+			android:onClick="onClick" />
+	</LinearLayout>
+</ScrollView>

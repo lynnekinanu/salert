@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFE5B4"
+	android:orientation="vertical"
+	android:padding="10dp" >
+	<Spinner
+		android:id="@+id/spnScheduleCustomers"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp" />
+	<Spinner
+		android:id="@+id/spnScheduleServices"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:entries="@array/spnScheduleServices" />
+	<Button
+		android:id="@+id/btnScheduleDate"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:text="Schedule Date" />
+	<Button
+		android:id="@+id/btnScheduleTime"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:text="Schedule Time" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:text="Amount" />
+	<EditText
+		android:id="@+id/etScheduleAcmount"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:hint="@string/etScheduleAmount"
+		android:inputType="number" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:text="Remarks" />
+	<EditText
+		android:id="@+id/etScheduleRemarks"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:gravity="top"
+		android:hint="@string/etScheduleAmount"
+		android:minLines="2" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+		<Button
+			android:id="@+id/btnCancelSchedule"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginTop="5dp"
+			android:layout_weight="1"
+			android:text="Cancel" />
+		<Button
+			android:id="@+id/btnSubmitSchedule"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginTop="5dp"
+			android:layout_weight="1"
+			android:drawableRight="@android:drawable/ic_input_add"
+			android:text="Create" />
+	</LinearLayout>
+</LinearLayout>

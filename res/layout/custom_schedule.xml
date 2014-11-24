@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_gravity="center"
+	android:background="#FFE5B4"
+	android:orientation="vertical" >
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+		<TextView
+			android:id="@+id/tvScheduleCustomername"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:layout_weight="1"
+			android:gravity="center_vertical"
+			android:text="facebook"
+			android:textColor="#284BDA" />
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="horizontal" >
+			<TextView
+				android:id="@+id/tvScheduleDate"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:layout_weight="1"
+				android:gravity="center_vertical"
+				android:text="20-2-2014"
+				android:textColor="#284BDA" />
+			<TextView
+				android:id="@+id/tvScheduleTime"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:layout_weight="1"
+				android:gravity="center_vertical"
+				android:text="12:59 pm"
+				android:textColor="#284BDA" />
+		</LinearLayout>
+	</LinearLayout>
+	<TextView
+		android:id="@+id/tvScheduleRemarks"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:gravity="center_vertical"
+		android:text="Remarks"
+		android:textColor="#284BDA" />
+</LinearLayout>

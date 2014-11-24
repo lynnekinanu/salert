@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:background="#FFE5B4"
+	android:orientation="vertical"
+	android:padding="10dp" >
+	<TextView
+		android:id="@+id/tvCutomerNames"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:gravity="center_vertical"
+		android:text="Nathan Kins"
+		android:textColor="#284BDA"
+		android:textStyle="italic" />
+	<TextView
+		android:id="@+id/tvCutomerMobile"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:drawableLeft="@drawable/mobile"
+		android:gravity="center_vertical"
+		android:padding="2dp"
+		android:text="0715121212"
+		android:textColor="#284BDA" />
+	<TextView
+		android:id="@+id/tvCutomerEmail"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:drawableLeft="@drawable/email"
+		android:gravity="center_vertical"
+		android:text="nathankins@gmail.com"
+		android:textColor="#284BDA" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+		<TextView
+			android:id="@+id/tvCutomerFacebook"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:layout_weight="1"
+			android:drawableLeft="@drawable/facebook"
+			android:gravity="center_vertical"
+			android:text="facebook"
+			android:textColor="#284BDA" />
+		<TextView
+			android:id="@+id/tvCutomerTwitter"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:layout_weight="1"
+			android:drawableLeft="@drawable/twitter"
+			android:gravity="center_vertical"
+			android:text="@string/twitter"
+			android:textColor="#284BDA" />
+	</LinearLayout>
+</LinearLayout>

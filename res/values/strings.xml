@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">salert</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+	<!-- Sign up -->
+	<string name="tvSignUp">Sign Up</string>
+	<string name="tvSignin">Sign In</string>
+	<string name="etFirstname">Enter firstname</string>
+	<string name="etLastname">Enter Lastname</string>
+	<string name="etEmail">Email</string>
+	<string name="etPassword">Password</string>
+	<string name="etCPassword">Re-Enter Password</string>
+	<string name="btnSignUp">Sign Up</string>
+	<string name="chkRemeberMe">Remember Me</string>
+	<string name="btnSignIn">Sign In</string>
+	<!-- end of sign up -->
+	<string-array name="titleArray">
+		<item>Schedule</item>
+		<item>Customer</item>
+		<item>Calendar</item>
+	</string-array>
+	<string name="drawer_open">Slider Menu Opened</string>
+	<string name="drawer_close">Slider Menu Closed</string>
+	<array name="nav_drawer_icons">
+		<item>@drawable/schedle</item>
+		<item>@drawable/customer</item>
+		<item>@drawable/schedule</item>
+	</array>
+	<!-- customer -->
+	<string name="etCustomerFullnames">Fullnames</string>
+	<string name="etCustomerMobile">Mobile number</string>
+	<string name="etCustomerEmail">Email Address</string>
+	<string name="etCustomerFacebook">Facebook </string>
+	<string name="etCustomerTwitter">Twitter handle</string>
+	<string name="btnAddCustomer">Add Customer</string>
+	<string name="twitter">twitter</string>
+	<!-- menus -->
+	<string name="menu_add_customer">Add</string>
+	<!-- end of customer -->
+	<!-- Schedule -->
+	<array name="spnScheduleServices">
+		<item>Select Service</item>
+		<item>Weaving</item>
+		<item>Pleating</item>
+		<item>Relaxing</item>
+		<item>Dreading</item>
+		<item>Nail Art</item>
+		<item>Eye blows shaving</item>
+	</array>
+	<string name="etScheduleAmount">Service Amount</string>
+	<string name="etScheduleRemarks">Service Remarks</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFE5B4"
+	android:orientation="vertical" >
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="20dp"
+		android:gravity="center"
+		android:text="Add New Customer"
+		android:textColor="#284BDA"
+		android:textSize="12pt"
+		android:textStyle="italic" />
+	<EditText
+		android:id="@+id/etCustomerFullnames"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="20dp"
+		android:hint="@string/etCustomerFullnames" />
+	<EditText
+		android:id="@+id/etCustomerMobile"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="20dp"
+		android:drawableLeft="@drawable/mobile"
+		android:hint="@string/etCustomerMobile" />
+	<EditText
+		android:id="@+id/etCustomerEmail"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="20dp"
+		android:drawableLeft="@drawable/email"
+		android:hint="@string/etCustomerEmail"
+		android:inputType="textEmailAddress" />
+	<EditText
+		android:id="@+id/etCustomerFacebook"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="20dp"
+		android:drawableLeft="@drawable/facebook"
+		android:hint="@string/etCustomerFacebook" />
+	<EditText
+		android:id="@+id/etCustomerTwitter"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="20dp"
+		android:drawableLeft="@drawable/twitter"
+		android:hint="@string/etCustomerTwitter" />
+	<Button
+		android:id="@+id/btnAddCustomer"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="20dp"
+		android:drawableRight="@android:drawable/ic_input_add"
+		android:hint="@string/btnAddCustomer" />
+</LinearLayout>
